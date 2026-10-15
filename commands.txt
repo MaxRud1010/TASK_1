@@ -1,0 +1,14 @@
+# Шаг 3: знакомство с grep
+grep "Сумма" 2022/buhgalteriya/schet_0001.txt
+grep -r "Earl Grey" .
+grep -r "earl grey" .
+grep -ri "earl grey" .
+grep -rl "Earl Grey" .
+
+# Шаг 4: поиск кодового слова
+grep -r "HINT-1" .
+grep -ri "kladovshik" .
+grep "CODE:" 2025/buhgalteriya/otchet_0015.txt
+
+# Шаг 5: ответ
+echo "ZONTIK" > answer.txt
