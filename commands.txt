@@ -1,0 +1,13 @@
+# Шаг 2: Вася сохраняет пароли
+bash create_passwords.sh
+cat passwords.txt
+git status
+
+# Шаг 3: .gitignore
+echo "passwords.txt" > .gitignore
+ls -a
+git status
+cat .gitignore
+
+git add .gitignore commands.txt
+git commit -m "Задание Q3: .gitignore для паролей и журнал команд"
